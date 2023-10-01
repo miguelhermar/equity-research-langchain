@@ -38,6 +38,7 @@ docker run -d -p 8501:8501 miguelhermar/streamlit_app_test
 ```
 -d for dettach mode: if you close the terminal it will keep running
 
+
 ```bash
 docker ps  
 ```

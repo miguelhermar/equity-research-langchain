@@ -24,7 +24,7 @@ source myenv/bin/activate
 scp -i "keys.pem" requirements.txt ec2-user@ec2-18-222-26-148.us-east-2.compute.amazonaws.com:/home/ec2-user/
 
 
-Run streamlit app in background
+### Run streamlit app in background
 
 
 nohup streamlit run app.py &
